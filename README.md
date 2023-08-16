@@ -10,6 +10,12 @@ Discussions about the paper are welcomed in the [discussion panel](https://githu
 
 ![Data](img/LSGL.png)
 
+## Introduction
+To extract fine-grained spatial information from high-quality microblog image-text data above, a series of image processing techniques are required to compare it with street view images that already contain spatial information and thereby screen out the best match for spatial information migration. In this process, the matching degree between the social media images and street view images determines the reliability of the fine-grained spatial information. To maximize the reliability of this process as much as possible, we designed a cascade model LSGL (LoFTR-Seg Geo-Localization) based on match-extraction-evaluation. 
+In this cascade model, we have used [LoFTR](https://github.com/zju3dv/LoFTR) and [DETR](https://github.com/facebookresearch/detr) as part of the model, respectively, thanks to the original authors for their efforts
+- ### Effect of Each Level of the Model on the Matching Results:
+![Figure 1](img/figure1.png)
+
 ## Colab demo
 Want to run MIST-SMMD with custom image pairs without configuring your own GPU environment? Try the Colab demo:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BO1gBlShIJn0E0LILbBlghXcaQ85N5XQ?usp=sharing)
