@@ -24,14 +24,3 @@ conda activate mist
 ``` bash
 pip install -r requirements.txt
 ```
-**Use Tsinghua University Mirrors:**
-``` bash
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-```
-**The spacy language pack needs to be installed manually:**
-``` bash
-python -m spacy download zh_core_web_trf
-```
-
-### Config File
-Changeable configurations are in the config/config.py file, just modify the parameters in [config/config.py](src/config/config.py)
