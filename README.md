@@ -8,7 +8,7 @@
 
 Discussions about the paper are welcomed in the [discussion panel](https://github.com/discussions).
 
-![Data](GIF.gif)
+![Data](img/LSGL.png)
 
 ## Colab demo
 Want to run MIST-SMMD with custom image pairs without configuring your own GPU environment? Try the Colab demo:
